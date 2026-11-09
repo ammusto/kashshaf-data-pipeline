@@ -100,7 +100,7 @@ optional, and a command-line argument always overrides it.
 
 ## Stage 1: Extract texts
 
-Each source arrives differently. You only need the sources you want.
+The pipeline comes with extractors for Shamela and Maktabat Ahl al-Bayt, and it also has an OpenITI downloader.
 
 **OpenITI.** `extract/fetch_openiti.py` downloads texts by version URI from
 OpenITI's GitHub repositories. You can also copy files from an OpenITI
@@ -131,7 +131,7 @@ install without them is read with the Lucene 10.4 jars in `extract/shamela/lib/`
 with its books downloaded, and `sources.ahlbayt` set in `config.toml`. The
 extractor reads the app's own databases. It writes one JSON per work to `data/raw/ahlbayt/`, and the library's catalogue
 record for each work to `metadata/sources/ahlbayt.xlsx`. By default it takes
-works in Arabic by authors who died by 1348 AH.
+works in Arabic by authors who died by 1348 AH, but this can be changed in `extract/ab_extractor.py` or as an argument with `--max-death-ah`.
 
 ```
 python extract\ab_extractor.py
@@ -147,19 +147,17 @@ python extract\ab_extractor.py --dry-run          (selection and metadata only)
 python scripts\collect_metadata.py
 ```
 
-This writes one table per source to `metadata/sources/`, using what that
-source says about each book. The OpenITI table comes from OpenITI's release
-metadata, which is downloaded from Zenodo the first time. These tables are
-yours to read and reuse as they are.
+This writes one table per source to `metadata/sources/`, using the metadata provided by each. The OpenITI table comes from OpenITI's release
+metadata, which is downloaded from Zenodo the first time you run it.
 
 It then writes `metadata/metadata.xlsx`, the master that the build reads, with
 one row per book. A new book gets the next free `id`, `in_corpus = 1`, and its
 title, author and death date from the source. Books by an author the master
 already knows receive that author's `author_id`. Rows that already exist are
-never changed, so you can run this again after adding texts.
+never changed, so you can run this again after adding texts without impacting existing data.
 
-You can build from this file straight away. These edits are optional, and can
-be made before or after a build:
+You can build from this file straight away. The following edits are optional, and can
+be made manually before or after a build:
 
 1. **Remove duplicates.** If the same work arrives from two sources, set
    `in_corpus` to `0` on the copy you do not want. The row stays and the
@@ -173,8 +171,7 @@ be made before or after a build:
 4. **Correct what you like,** such as titles, author names and death dates.
    Each `author_id` must always carry the same `author_name`.
 
-Treat `id` as permanent once a corpus is in use, since citations and links
-depend on it. The full list of columns is in section 2.2 of the
+Treat `id` as permanent once a corpus is in use and cannot be updated without rebuilding. The full list of columns is in section 2.2 of the
 [data model](docs/CORPUS_DATA_MODEL.md).
 
 If you already have a master from an earlier build, put it in `metadata/`
@@ -188,12 +185,12 @@ python scripts\kashshaf_pipeline.py
 
 Every raw file whose row has `in_corpus = 1` becomes
 `data/canonical/<corpus>.<original_id>.json`, with its pages and headings in
-one shared format. OpenITI's mARkdown is split into pages and its headings
+one shared JSON format. OpenITI's mARkdown is split into pages and its headings
 are converted. Nusus TEI is read page by page. Shamela and Ahl al-Bayt texts
-already have pages. Every page then goes through the same cleaner, which
+already have pages, and their headings are preserved. Every page then goes through the same cleaner, which
 removes markup, editorial markers, Latin text and stray symbols, and keeps
 the Arabic exactly as written. The cleaner's steps are listed in section 3.4
-of the data model. This stage takes minutes.
+of the data model.
 
 ## Stage 4: Morphology
 
@@ -203,12 +200,16 @@ python scripts\process_batch.py --all --input-dir data\canonical --output-dir da
 
 Each page is tokenised, and every word is tagged by CAMeL Tools' BERT model
 for Modern Standard Arabic with its lemma, root, part of speech, case, number,
-gender and clitics. Where the tagger cannot identify a word, the override
-files supply an analysis. The result is one JSONL file per book, named by its
-`id`, with one line per page.
+gender and clitics. There are several consistent errors that the CAMeL parser makes, so there are two morphology override files. 
 
-This is the slow stage. On an RTX 4070 Ti it handles about 16,000 tokens a
-second, which is roughly 20 hours for the entire Kashshāf corpus (all texts from 1348/1930 and earlier). It records its
+`morph_overrides.json` contains 73 hand-written analyses for words such as `ثنا,` an abbreviation of `حدثنا` where the parser has no ability to parse the word.
+
+`morph_overrides_auto.json` contains 596 closed-class words, such as `عن`, that the tagger usually analyses correctly but sometimes fails to identify. When it fails, the word receives the analysis the tagger most often gives it elsewhere in the corpus. 
+
+Both override files apply only to when the parser fails, and the hand-written file takes precedence. The result is one JSONL file per book, named by its `id`, with one line per page.
+
+This stage takes some time. For example, on an RTX 4070 Ti it handles about 16,000 tokens a
+second, which is roughly 20 hours for the entire Kashshāf corpus of roughly 1.2B tokens. It records its
 progress in `data/processing_progress.json`, so an interrupted run continues from
 where it stopped.
 
