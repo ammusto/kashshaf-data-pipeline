@@ -1,0 +1,10414 @@
+{
+  "_meta": {
+    "generated_by": "generate_auto_overrides.py",
+    "generated_at": "2026-05-03T18:55:23.235818+00:00",
+    "source_db": "corpus.db",
+    "note": "Auto-generated overrides for noun_prop+O surfaces with a closed-class POS alternative. Keys are NORMALIZED surface forms (no further normalization applied at load time). Loader merges manual overrides on top, so manual entries win on conflict. Provenance metadata in each entry's _source field is ignored at runtime.",
+    "safe_pos_list": [
+      "abbrev",
+      "adv",
+      "conj",
+      "conj_sub",
+      "interj",
+      "noun_quant",
+      "part",
+      "part_focus",
+      "part_fut",
+      "part_interrog",
+      "part_neg",
+      "part_voc",
+      "prep",
+      "pron",
+      "pron_dem",
+      "pron_interrog",
+      "pron_rel",
+      "punc",
+      "verb_pseudo"
+    ],
+    "override_count": 596,
+    "npO_fires_covered": 319055
+  },
+  "عن": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1388,
+      "top_alt_count": 5580148,
+      "n_alternatives": 2
+    }
+  },
+  "مما": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "mA_rel",
+        "type": "mA_rel"
+      }
+    ],
+    "_source": {
+      "npO_count": 21,
+      "top_alt_count": 247017,
+      "n_alternatives": 1
+    }
+  },
+  "وعن": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 102,
+      "top_alt_count": 191015,
+      "n_alternatives": 2
+    }
+  },
+  "الذين": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 290173,
+      "n_alternatives": 1
+    }
+  },
+  "لا": {
+    "lex": "لا",
+    "root": "ل.#",
+    "pos": "part_neg",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 437,
+      "top_alt_count": 3304721,
+      "n_alternatives": 1
+    }
+  },
+  "به": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 29,
+      "top_alt_count": 1455803,
+      "n_alternatives": 1
+    }
+  },
+  "ممن": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "man_rel",
+        "type": "man_rel"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 103219,
+      "n_alternatives": 1
+    }
+  },
+  "انما": {
+    "lex": "إنما",
+    "root": "#.ن.ن",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "mA_rel",
+        "type": "mA_rel"
+      }
+    ],
+    "_source": {
+      "npO_count": 66,
+      "top_alt_count": 332583,
+      "n_alternatives": 1
+    }
+  },
+  "في": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2839,
+      "top_alt_count": 8947428,
+      "n_alternatives": 3
+    }
+  },
+  "الا": {
+    "lex": "إلا",
+    "root": "#.ل.ل",
+    "pos": "part",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 20,
+      "top_alt_count": 1439173,
+      "n_alternatives": 3
+    }
+  },
+  "ولا": {
+    "lex": "لا",
+    "root": "ل.#",
+    "pos": "part_neg",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 16,
+      "top_alt_count": 1801646,
+      "n_alternatives": 2
+    }
+  },
+  "وانما": {
+    "lex": "إنما",
+    "root": "#.ن.ن",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "mA_rel",
+        "type": "mA_rel"
+      }
+    ],
+    "_source": {
+      "npO_count": 7,
+      "top_alt_count": 273335,
+      "n_alternatives": 1
+    }
+  },
+  "له": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 85,
+      "top_alt_count": 1867791,
+      "n_alternatives": 1
+    }
+  },
+  "فانما": {
+    "lex": "إنما",
+    "root": "#.ن.ن",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "mA_rel",
+        "type": "mA_rel"
+      }
+    ],
+    "_source": {
+      "npO_count": 23,
+      "top_alt_count": 43146,
+      "n_alternatives": 1
+    }
+  },
+  "او": {
+    "lex": "أو",
+    "root": "#.#.ن",
+    "pos": "conj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 48,
+      "top_alt_count": 1829741,
+      "n_alternatives": 2
+    }
+  },
+  "الذي": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 966771,
+      "n_alternatives": 1
+    }
+  },
+  "منا": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 21,
+      "top_alt_count": 50605,
+      "n_alternatives": 1
+    }
+  },
+  "عمن": {
+    "lex": "عمن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "man_rel",
+        "type": "man_rel"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 19779,
+      "n_alternatives": 1
+    }
+  },
+  "بما": {
+    "lex": "ما",
+    "root": "بم",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 330337,
+      "n_alternatives": 2
+    }
+  },
+  "لها": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 358862,
+      "n_alternatives": 1
+    }
+  },
+  "اياه": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 35,
+      "top_alt_count": 42886,
+      "n_alternatives": 1
+    }
+  },
+  "التي": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 489841,
+      "n_alternatives": 1
+    }
+  },
+  "عني": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1814,
+      "top_alt_count": 55100,
+      "n_alternatives": 2
+    }
+  },
+  "بها": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 571660,
+      "n_alternatives": 1
+    }
+  },
+  "يا": {
+    "lex": "يا",
+    "root": "#.#",
+    "pos": "part_voc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 114,
+      "top_alt_count": 708765,
+      "n_alternatives": 1
+    }
+  },
+  "انت": {
+    "lex": "أنت",
+    "root": "#.ن",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 31,
+      "top_alt_count": 167833,
+      "n_alternatives": 2
+    }
+  },
+  "منها": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 370054,
+      "n_alternatives": 1
+    }
+  },
+  "فهذه": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 25286,
+      "n_alternatives": 1
+    }
+  },
+  "كانه": {
+    "lex": "كأن",
+    "root": "ك.#.ن",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 311,
+      "top_alt_count": 61192,
+      "n_alternatives": 6
+    }
+  },
+  "بهذين": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 286,
+      "top_alt_count": 1549,
+      "n_alternatives": 1
+    }
+  },
+  "لك": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 63,
+      "top_alt_count": 217554,
+      "n_alternatives": 4
+    }
+  },
+  "فاما": {
+    "lex": "أما",
+    "root": "#.م.م",
+    "pos": "part_focus",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 329,
+      "top_alt_count": 148210,
+      "n_alternatives": 4
+    }
+  },
+  "و": {
+    "lex": "و",
+    "root": "NTWS",
+    "pos": "conj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 110,
+      "top_alt_count": 323567,
+      "n_alternatives": 2
+    }
+  },
+  "ايهم": {
+    "lex": "أي",
+    "root": "ّهم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "3mp_poss",
+        "type": "3mp_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 1849,
+      "top_alt_count": 2954,
+      "n_alternatives": 1
+    }
+  },
+  "عنك": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 8,
+      "top_alt_count": 35177,
+      "n_alternatives": 1
+    }
+  },
+  "وعمن": {
+    "lex": "عمن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "man_rel",
+        "type": "man_rel"
+      }
+    ],
+    "_source": {
+      "npO_count": 709,
+      "top_alt_count": 177,
+      "n_alternatives": 2
+    }
+  },
+  "عليك": {
+    "lex": "على",
+    "root": "ع.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 252,
+      "top_alt_count": 122539,
+      "n_alternatives": 3
+    }
+  },
+  "منك": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 43,
+      "top_alt_count": 63379,
+      "n_alternatives": 1
+    }
+  },
+  "لولا": {
+    "lex": "لولا",
+    "root": "ل.#",
+    "pos": "conj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 161,
+      "top_alt_count": 36107,
+      "n_alternatives": 1
+    }
+  },
+  "اذ": {
+    "lex": "إذ",
+    "root": "#.ذ",
+    "pos": "conj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2572,
+      "top_alt_count": 229383,
+      "n_alternatives": 1
+    }
+  },
+  "بهؤلاء": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1849,
+      "n_alternatives": 1
+    }
+  },
+  "ا": {
+    "lex": "أ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 16907,
+      "top_alt_count": 68962,
+      "n_alternatives": 1
+    }
+  },
+  "وهذان": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 3973,
+      "n_alternatives": 1
+    }
+  },
+  "هذان": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 71,
+      "top_alt_count": 7347,
+      "n_alternatives": 1
+    }
+  },
+  "هل": {
+    "lex": "هل",
+    "root": "ه.ل",
+    "pos": "part_interrog",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 372,
+      "top_alt_count": 169716,
+      "n_alternatives": 2
+    }
+  },
+  "انهم": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 136426,
+      "n_alternatives": 1
+    }
+  },
+  "عنا": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 13,
+      "top_alt_count": 20022,
+      "n_alternatives": 2
+    }
+  },
+  "ومعنا": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2010,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "بي": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 322,
+      "top_alt_count": 58014,
+      "n_alternatives": 2
+    }
+  },
+  "فلن": {
+    "lex": "لن",
+    "root": "ل.ن",
+    "pos": "part_neg",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 7995,
+      "n_alternatives": 1
+    }
+  },
+  "وهي": {
+    "lex": "هي",
+    "root": "ه",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 303588,
+      "n_alternatives": 2
+    }
+  },
+  "نحن": {
+    "lex": "نحن",
+    "root": "ن.ح.ن",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 55470,
+      "n_alternatives": 1
+    }
+  },
+  "وعليك": {
+    "lex": "على",
+    "root": "ع.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 5470,
+      "n_alternatives": 5
+    }
+  },
+  "بـ": {
+    "lex": "ب",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 4824,
+      "top_alt_count": 7125,
+      "n_alternatives": 1
+    }
+  },
+  "مالم": {
+    "lex": "مالم",
+    "root": "ملم",
+    "pos": "conj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1652,
+      "top_alt_count": 951,
+      "n_alternatives": 1
+    }
+  },
+  "ومما": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "mA_rel",
+        "type": "mA_rel"
+      }
+    ],
+    "_source": {
+      "npO_count": 235,
+      "top_alt_count": 30598,
+      "n_alternatives": 1
+    }
+  },
+  "وانت": {
+    "lex": "أنت",
+    "root": "#.ن",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 32,
+      "top_alt_count": 57064,
+      "n_alternatives": 3
+    }
+  },
+  "ومنهم": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 60906,
+      "n_alternatives": 1
+    }
+  },
+  "هي": {
+    "lex": "هي",
+    "root": "ه",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 91,
+      "top_alt_count": 259706,
+      "n_alternatives": 1
+    }
+  },
+  "فبهذا": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 46,
+      "top_alt_count": 1208,
+      "n_alternatives": 1
+    }
+  },
+  "ايهما": {
+    "lex": "أي",
+    "root": "ّهم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "3d_poss",
+        "type": "3d_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 19,
+      "top_alt_count": 10027,
+      "n_alternatives": 1
+    }
+  },
+  "فبها": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 89,
+      "top_alt_count": 1717,
+      "n_alternatives": 1
+    }
+  },
+  "وعليكم": {
+    "lex": "على",
+    "root": "ع.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 2416,
+      "n_alternatives": 4
+    }
+  },
+  "كمن": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "كـ",
+        "type": "ka_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 21,
+      "top_alt_count": 19423,
+      "n_alternatives": 2
+    }
+  },
+  "ايها": {
+    "lex": "أيها",
+    "root": "#.#.#",
+    "pos": "part_voc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 54,
+      "top_alt_count": 77753,
+      "n_alternatives": 2
+    }
+  },
+  "ع": {
+    "lex": "ع",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1180,
+      "top_alt_count": 74345,
+      "n_alternatives": 1
+    }
+  },
+  "خ": {
+    "lex": "خ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 895,
+      "top_alt_count": 36296,
+      "n_alternatives": 1
+    }
+  },
+  "م": {
+    "lex": "م",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1543,
+      "top_alt_count": 109791,
+      "n_alternatives": 1
+    }
+  },
+  "د": {
+    "lex": "د",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 478,
+      "top_alt_count": 61460,
+      "n_alternatives": 1
+    }
+  },
+  "ت": {
+    "lex": "ت",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2235,
+      "top_alt_count": 56672,
+      "n_alternatives": 1
+    }
+  },
+  "س": {
+    "lex": "س",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1263,
+      "top_alt_count": 45207,
+      "n_alternatives": 1
+    }
+  },
+  "ق": {
+    "lex": "ق",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1695,
+      "top_alt_count": 37250,
+      "n_alternatives": 1
+    }
+  },
+  "بخ": {
+    "lex": "بخ",
+    "root": "ب.خ",
+    "pos": "interj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1870,
+      "top_alt_count": 1188,
+      "n_alternatives": 2
+    }
+  },
+  "ي": {
+    "lex": "ي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 3497,
+      "top_alt_count": 16589,
+      "n_alternatives": 1
+    }
+  },
+  "ز": {
+    "lex": "ز",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1610,
+      "top_alt_count": 11879,
+      "n_alternatives": 1
+    }
+  },
+  "ف": {
+    "lex": "ف",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 512,
+      "top_alt_count": 19250,
+      "n_alternatives": 2
+    }
+  },
+  "ل": {
+    "lex": "ل",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 5648,
+      "top_alt_count": 29897,
+      "n_alternatives": 2
+    }
+  },
+  "سي": {
+    "lex": "سي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 72,
+      "top_alt_count": 912,
+      "n_alternatives": 1
+    }
+  },
+  "ص": {
+    "lex": "ص",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 11232,
+      "top_alt_count": 80003,
+      "n_alternatives": 1
+    }
+  },
+  "ك": {
+    "lex": "ك",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2076,
+      "top_alt_count": 15644,
+      "n_alternatives": 2
+    }
+  },
+  "اف": {
+    "lex": "إف",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 302,
+      "top_alt_count": 3587,
+      "n_alternatives": 2
+    }
+  },
+  "ة": {
+    "lex": "ه",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 6849,
+      "top_alt_count": 774,
+      "n_alternatives": 1
+    }
+  },
+  "خلال": {
+    "lex": "خلال",
+    "root": "خلل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 8201,
+      "top_alt_count": 15,
+      "n_alternatives": 1
+    }
+  },
+  "هـ": {
+    "lex": "ه",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 39897,
+      "top_alt_count": 48303,
+      "n_alternatives": 1
+    }
+  },
+  "وعنهم": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 8,
+      "top_alt_count": 712,
+      "n_alternatives": 1
+    }
+  },
+  "ففي": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 26,
+      "top_alt_count": 51415,
+      "n_alternatives": 1
+    }
+  },
+  "كانما": {
+    "lex": "كأنما",
+    "root": "ك.#.ن",
+    "pos": "part",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 10378,
+      "top_alt_count": 2463,
+      "n_alternatives": 1
+    }
+  },
+  "ولان": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 78657,
+      "n_alternatives": 2
+    }
+  },
+  "والا": {
+    "lex": "إلا",
+    "root": "#.ل.ل",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 77706,
+      "n_alternatives": 3
+    }
+  },
+  "منهن": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 18574,
+      "n_alternatives": 1
+    }
+  },
+  "ولمن": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 7346,
+      "n_alternatives": 3
+    }
+  },
+  "تجاه": {
+    "lex": "تجاه",
+    "root": "تجه",
+    "pos": "prep",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 944,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "بمن": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 10,
+      "top_alt_count": 26297,
+      "n_alternatives": 1
+    }
+  },
+  "فمنها": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 287,
+      "top_alt_count": 5549,
+      "n_alternatives": 1
+    }
+  },
+  "جي": {
+    "lex": "جي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 461,
+      "top_alt_count": 327,
+      "n_alternatives": 1
+    }
+  },
+  "وبه": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 81408,
+      "n_alternatives": 2
+    }
+  },
+  "فانت": {
+    "lex": "أنت",
+    "root": "#.ن",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 35,
+      "top_alt_count": 26683,
+      "n_alternatives": 2
+    }
+  },
+  "بم": {
+    "lex": "ما",
+    "root": "م.#",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 137,
+      "top_alt_count": 5379,
+      "n_alternatives": 1
+    }
+  },
+  "فسي": {
+    "lex": "سي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 194,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "وهاتان": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 34,
+      "top_alt_count": 880,
+      "n_alternatives": 1
+    }
+  },
+  "حواليه": {
+    "lex": "حوالى",
+    "root": "حل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 818,
+      "top_alt_count": 134,
+      "n_alternatives": 1
+    }
+  },
+  "فمنه": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 590,
+      "top_alt_count": 2539,
+      "n_alternatives": 1
+    }
+  },
+  "الخ": {
+    "lex": "ألخ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 659,
+      "top_alt_count": 5038,
+      "n_alternatives": 1
+    }
+  },
+  "ففيه": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 5611,
+      "top_alt_count": 26965,
+      "n_alternatives": 1
+    }
+  },
+  "عليكم": {
+    "lex": "على",
+    "root": "ع.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 90812,
+      "n_alternatives": 1
+    }
+  },
+  "وانتما": {
+    "lex": "أنتما",
+    "root": "#.ن",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 63,
+      "top_alt_count": 393,
+      "n_alternatives": 1
+    }
+  },
+  "والذين": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 7,
+      "top_alt_count": 36619,
+      "n_alternatives": 1
+    }
+  },
+  "انهن": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 19,
+      "top_alt_count": 3249,
+      "n_alternatives": 2
+    }
+  },
+  "لعلنا": {
+    "lex": "لعل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "la_emph"
+      },
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 794,
+      "n_alternatives": 2
+    }
+  },
+  "ففيها": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1064,
+      "top_alt_count": 9164,
+      "n_alternatives": 1
+    }
+  },
+  "فيك": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 128,
+      "top_alt_count": 20091,
+      "n_alternatives": 1
+    }
+  },
+  "ولئن": {
+    "lex": "إن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "la_emph"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 9339,
+      "top_alt_count": 624,
+      "n_alternatives": 1
+    }
+  },
+  "واياكم": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 266,
+      "top_alt_count": 3907,
+      "n_alternatives": 1
+    }
+  },
+  "بينما": {
+    "lex": "بينما",
+    "root": "ب.#.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 246,
+      "top_alt_count": 7707,
+      "n_alternatives": 1
+    }
+  },
+  "ولولا": {
+    "lex": "لولا",
+    "root": "ل.#",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 20410,
+      "n_alternatives": 1
+    }
+  },
+  "ب": {
+    "lex": "ب",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1605,
+      "top_alt_count": 82465,
+      "n_alternatives": 2
+    }
+  },
+  "ث": {
+    "lex": "ث",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 674,
+      "top_alt_count": 4279,
+      "n_alternatives": 1
+    }
+  },
+  "ج": {
+    "lex": "ج",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 70,
+      "top_alt_count": 51868,
+      "n_alternatives": 1
+    }
+  },
+  "ح": {
+    "lex": "ح",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 9866,
+      "top_alt_count": 78179,
+      "n_alternatives": 1
+    }
+  },
+  "ذ": {
+    "lex": "ذ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 5761,
+      "top_alt_count": 132,
+      "n_alternatives": 1
+    }
+  },
+  "ر": {
+    "lex": "ر",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 698,
+      "top_alt_count": 29307,
+      "n_alternatives": 1
+    }
+  },
+  "ش": {
+    "lex": "ش",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1373,
+      "top_alt_count": 16204,
+      "n_alternatives": 1
+    }
+  },
+  "ط": {
+    "lex": "ط",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1643,
+      "top_alt_count": 39443,
+      "n_alternatives": 1
+    }
+  },
+  "ه": {
+    "lex": "ه",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 3509,
+      "top_alt_count": 43018,
+      "n_alternatives": 1
+    }
+  },
+  "لئن": {
+    "lex": "إن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "la_emph"
+      }
+    ],
+    "_source": {
+      "npO_count": 12,
+      "top_alt_count": 20732,
+      "n_alternatives": 1
+    }
+  },
+  "ن": {
+    "lex": "ن",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 13367,
+      "top_alt_count": 18536,
+      "n_alternatives": 1
+    }
+  },
+  "ويا": {
+    "lex": "يا",
+    "root": "#.#",
+    "pos": "part_voc",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 190,
+      "top_alt_count": 13605,
+      "n_alternatives": 1
+    }
+  },
+  "بلا": {
+    "lex": "بلا",
+    "root": "بل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 63793,
+      "n_alternatives": 3
+    }
+  },
+  "فله": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 59,
+      "top_alt_count": 25231,
+      "n_alternatives": 10
+    }
+  },
+  "فانكم": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 12,
+      "top_alt_count": 4574,
+      "n_alternatives": 3
+    }
+  },
+  "ايكم": {
+    "lex": "أي",
+    "root": "ّكم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "2mp_poss",
+        "type": "2mp_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 183,
+      "top_alt_count": 3995,
+      "n_alternatives": 1
+    }
+  },
+  "فكانما": {
+    "lex": "كأنما",
+    "root": "ك.#.ن",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 648,
+      "top_alt_count": 7118,
+      "n_alternatives": 1
+    }
+  },
+  "اياي": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1619,
+      "top_alt_count": 1745,
+      "n_alternatives": 1
+    }
+  },
+  "فطالما": {
+    "lex": "طالما",
+    "root": "ط.#.ل",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 214,
+      "top_alt_count": 238,
+      "n_alternatives": 1
+    }
+  },
+  "وانتن": {
+    "lex": "أنتن",
+    "root": "#.ن",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "PL",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 231,
+      "top_alt_count": 32,
+      "n_alternatives": 3
+    }
+  },
+  "لانهن": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 58,
+      "top_alt_count": 1965,
+      "n_alternatives": 2
+    }
+  },
+  "وهن": {
+    "lex": "هن",
+    "root": "ه",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "PL",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 2930,
+      "n_alternatives": 11
+    }
+  },
+  "فيهن": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 59,
+      "top_alt_count": 11746,
+      "n_alternatives": 2
+    }
+  },
+  "فبتلك": {
+    "lex": "ذلك",
+    "root": "ذ.#",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 9,
+      "top_alt_count": 30,
+      "n_alternatives": 4
+    }
+  },
+  "بهاتين": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "FEM",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 82,
+      "top_alt_count": 468,
+      "n_alternatives": 2
+    }
+  },
+  "فبينما": {
+    "lex": "بينما",
+    "root": "ب.#.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 523,
+      "top_alt_count": 5289,
+      "n_alternatives": 1
+    }
+  },
+  "فايكم": {
+    "lex": "أي",
+    "root": "ّكم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "2mp_poss",
+        "type": "2mp_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 12,
+      "top_alt_count": 770,
+      "n_alternatives": 1
+    }
+  },
+  "فبم": {
+    "lex": "ما",
+    "root": "م.#",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 275,
+      "top_alt_count": 985,
+      "n_alternatives": 1
+    }
+  },
+  "اياها": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 16417,
+      "n_alternatives": 1
+    }
+  },
+  "لن": {
+    "lex": "لن",
+    "root": "ل.ن",
+    "pos": "part_neg",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 568,
+      "top_alt_count": 29204,
+      "n_alternatives": 1
+    }
+  },
+  "فنحن": {
+    "lex": "نحن",
+    "root": "ن.ح.ن",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 91,
+      "top_alt_count": 7576,
+      "n_alternatives": 1
+    }
+  },
+  "بهن": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 256,
+      "top_alt_count": 12209,
+      "n_alternatives": 1
+    }
+  },
+  "كهاتين": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "FEM",
+      "ACC"
+    ],
+    "clitics": [
+      {
+        "display": "كـ",
+        "type": "ka_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 15,
+      "top_alt_count": 589,
+      "n_alternatives": 2
+    }
+  },
+  "ففيهما": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـهما",
+        "type": "3d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 868,
+      "top_alt_count": 11,
+      "n_alternatives": 1
+    }
+  },
+  "فلولا": {
+    "lex": "لولا",
+    "root": "ل.#",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 7121,
+      "n_alternatives": 2
+    }
+  },
+  "منكما": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "2d_pron",
+        "type": "2d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 2045,
+      "n_alternatives": 1
+    }
+  },
+  "فيكما": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "2d_pron",
+        "type": "2d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 18,
+      "top_alt_count": 443,
+      "n_alternatives": 1
+    }
+  },
+  "اللواتي": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "PL",
+      "FEM"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 103,
+      "top_alt_count": 2794,
+      "n_alternatives": 1
+    }
+  },
+  "واياهم": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1119,
+      "top_alt_count": 106,
+      "n_alternatives": 1
+    }
+  },
+  "فهل": {
+    "lex": "هل",
+    "root": "ه.ل",
+    "pos": "part_interrog",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 50082,
+      "n_alternatives": 1
+    }
+  },
+  "عليهن": {
+    "lex": "على",
+    "root": "ع.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 22,
+      "top_alt_count": 11982,
+      "n_alternatives": 1
+    }
+  },
+  "لهذين": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 9,
+      "top_alt_count": 815,
+      "n_alternatives": 1
+    }
+  },
+  "معهن": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1984,
+      "top_alt_count": 11,
+      "n_alternatives": 1
+    }
+  },
+  "سوف": {
+    "lex": "سوف",
+    "root": "س.#.ف",
+    "pos": "part_fut",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 157,
+      "top_alt_count": 5049,
+      "n_alternatives": 1
+    }
+  },
+  "وانتم": {
+    "lex": "أنتم",
+    "root": "#.ن",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 21236,
+      "n_alternatives": 1
+    }
+  },
+  "فليت": {
+    "lex": "ليت",
+    "root": "ل.#.ت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 375,
+      "top_alt_count": 1711,
+      "n_alternatives": 2
+    }
+  },
+  "كانهم": {
+    "lex": "كأن",
+    "root": "ك.#.ن",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 9577,
+      "n_alternatives": 5
+    }
+  },
+  "للذين": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 16051,
+      "n_alternatives": 1
+    }
+  },
+  "وليتني": {
+    "lex": "ليت",
+    "root": "ل.#.ت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 463,
+      "n_alternatives": 3
+    }
+  },
+  "ففيهم": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 419,
+      "top_alt_count": 54,
+      "n_alternatives": 1
+    }
+  },
+  "فانني": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1104,
+      "top_alt_count": 2732,
+      "n_alternatives": 2
+    }
+  },
+  "انني": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 12842,
+      "n_alternatives": 2
+    }
+  },
+  "كيما": {
+    "lex": "كيما",
+    "root": "ك.#",
+    "pos": "conj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1088,
+      "top_alt_count": 571,
+      "n_alternatives": 1
+    }
+  },
+  "اياكم": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2694,
+      "top_alt_count": 2985,
+      "n_alternatives": 1
+    }
+  },
+  "لعله": {
+    "lex": "لعل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "la_emph"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 8857,
+      "n_alternatives": 1
+    }
+  },
+  "وا": {
+    "lex": "وا",
+    "root": null,
+    "pos": "interj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 5962,
+      "top_alt_count": 1696,
+      "n_alternatives": 1
+    }
+  },
+  "مم": {
+    "lex": "ملم",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1988,
+      "top_alt_count": 529,
+      "n_alternatives": 2
+    }
+  },
+  "وثم": {
+    "lex": "ثم",
+    "root": "ث.م.م",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 438,
+      "top_alt_count": 1927,
+      "n_alternatives": 1
+    }
+  },
+  "فهلا": {
+    "lex": "هلا",
+    "root": "هلّ",
+    "pos": "part_interrog",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 6199,
+      "n_alternatives": 2
+    }
+  },
+  "والتي": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 7867,
+      "n_alternatives": 1
+    }
+  },
+  "فيا": {
+    "lex": "يا",
+    "root": "#.#",
+    "pos": "part_voc",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 4057,
+      "top_alt_count": 5119,
+      "n_alternatives": 2
+    }
+  },
+  "وبينما": {
+    "lex": "بينما",
+    "root": "ب.#.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 157,
+      "top_alt_count": 615,
+      "n_alternatives": 1
+    }
+  },
+  "وايها": {
+    "lex": "أي",
+    "root": "ّه",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "3fs_poss",
+        "type": "3fs_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 16,
+      "top_alt_count": 355,
+      "n_alternatives": 2
+    }
+  },
+  "فيم": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ma_interrog",
+        "type": "ma_interrog"
+      }
+    ],
+    "_source": {
+      "npO_count": 1201,
+      "top_alt_count": 2242,
+      "n_alternatives": 1
+    }
+  },
+  "فانتم": {
+    "lex": "أنتم",
+    "root": "#.ن",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 264,
+      "top_alt_count": 2432,
+      "n_alternatives": 2
+    }
+  },
+  "ولن": {
+    "lex": "لن",
+    "root": "ل.ن",
+    "pos": "part_neg",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 18,
+      "top_alt_count": 12357,
+      "n_alternatives": 1
+    }
+  },
+  "وعنك": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 150,
+      "top_alt_count": 119,
+      "n_alternatives": 1
+    }
+  },
+  "ايانا": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1600,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "فممن": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "man_rel",
+        "type": "man_rel"
+      }
+    ],
+    "_source": {
+      "npO_count": 1329,
+      "top_alt_count": 18,
+      "n_alternatives": 1
+    }
+  },
+  "ليته": {
+    "lex": "ليت",
+    "root": "ل.#.ت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 26,
+      "top_alt_count": 893,
+      "n_alternatives": 3
+    }
+  },
+  "معا": {
+    "lex": "معا",
+    "root": "مع",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 11,
+      "top_alt_count": 29877,
+      "n_alternatives": 1
+    }
+  },
+  "وسوف": {
+    "lex": "سوف",
+    "root": "س.#.ف",
+    "pos": "part_fut",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 93,
+      "top_alt_count": 1946,
+      "n_alternatives": 1
+    }
+  },
+  "ومعها": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3500,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "واياك": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2967,
+      "top_alt_count": 4161,
+      "n_alternatives": 1
+    }
+  },
+  "واليك": {
+    "lex": "إلى",
+    "root": "#.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 2923,
+      "n_alternatives": 4
+    }
+  },
+  "ياليت": {
+    "lex": "ليت",
+    "root": "لت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 178,
+      "top_alt_count": 65,
+      "n_alternatives": 1
+    }
+  },
+  "فاياك": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 894,
+      "top_alt_count": 269,
+      "n_alternatives": 1
+    }
+  },
+  "ظ": {
+    "lex": "ظ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 5192,
+      "top_alt_count": 4605,
+      "n_alternatives": 1
+    }
+  },
+  "وفق": {
+    "lex": "وفق",
+    "root": "فق",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 4045,
+      "n_alternatives": 2
+    }
+  },
+  "فاياكم": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 442,
+      "top_alt_count": 70,
+      "n_alternatives": 1
+    }
+  },
+  "ياليتنا": {
+    "lex": "ليت",
+    "root": "لت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 21,
+      "top_alt_count": 40,
+      "n_alternatives": 1
+    }
+  },
+  "وكذاك": {
+    "lex": "ذاك",
+    "root": "ذ.#",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "كـ",
+        "type": "ka_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 935,
+      "n_alternatives": 2
+    }
+  },
+  "ففيهن": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 48,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ومسانهة": {
+    "lex": "مسانهة",
+    "root": "مسنهة",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 10,
+      "top_alt_count": 21,
+      "n_alternatives": 1
+    }
+  },
+  "عل": {
+    "lex": "عل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 3445,
+      "top_alt_count": 3151,
+      "n_alternatives": 1
+    }
+  },
+  "اليهن": {
+    "lex": "إلى",
+    "root": "#.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 13,
+      "top_alt_count": 2897,
+      "n_alternatives": 2
+    }
+  },
+  "لكيلا": {
+    "lex": "كيلا",
+    "root": "لكل",
+    "pos": "conj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 133,
+      "top_alt_count": 1416,
+      "n_alternatives": 1
+    }
+  },
+  "ليتنا": {
+    "lex": "ليت",
+    "root": "ل.#.ت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 7,
+      "top_alt_count": 798,
+      "n_alternatives": 3
+    }
+  },
+  "فمع": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1123,
+      "top_alt_count": 239,
+      "n_alternatives": 1
+    }
+  },
+  "فانهن": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1687,
+      "n_alternatives": 2
+    }
+  },
+  "عنهن": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 2302,
+      "n_alternatives": 1
+    }
+  },
+  "بانه": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 50901,
+      "n_alternatives": 1
+    }
+  },
+  "اياهم": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 17,
+      "top_alt_count": 8548,
+      "n_alternatives": 1
+    }
+  },
+  "واللاتي": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 122,
+      "top_alt_count": 741,
+      "n_alternatives": 1
+    }
+  },
+  "اياهما": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهما",
+        "type": "3d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 108,
+      "top_alt_count": 878,
+      "n_alternatives": 1
+    }
+  },
+  "انكن": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكنّ",
+        "type": "2fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 24,
+      "top_alt_count": 359,
+      "n_alternatives": 2
+    }
+  },
+  "ومنكم": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 109,
+      "top_alt_count": 2082,
+      "n_alternatives": 1
+    }
+  },
+  "وعنها": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 20,
+      "top_alt_count": 1302,
+      "n_alternatives": 1
+    }
+  },
+  "لعلكما": {
+    "lex": "لعل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "la_emph"
+      },
+      {
+        "display": "2d_pron",
+        "type": "2d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 59,
+      "n_alternatives": 3
+    }
+  },
+  "وايانا": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1701,
+      "top_alt_count": 277,
+      "n_alternatives": 1
+    }
+  },
+  "ض": {
+    "lex": "ض",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 688,
+      "top_alt_count": 4755,
+      "n_alternatives": 1
+    }
+  },
+  "غ": {
+    "lex": "غ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 187,
+      "top_alt_count": 6046,
+      "n_alternatives": 1
+    }
+  },
+  "فعليهم": {
+    "lex": "على",
+    "root": "ع.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 1307,
+      "n_alternatives": 5
+    }
+  },
+  "فعن": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 497,
+      "top_alt_count": 3088,
+      "n_alternatives": 2
+    }
+  },
+  "فحيث": {
+    "lex": "حيث",
+    "root": "ح.#.ث",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1099,
+      "top_alt_count": 862,
+      "n_alternatives": 1
+    }
+  },
+  "ايكما": {
+    "lex": "أي",
+    "root": "ّكم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 61,
+      "top_alt_count": 473,
+      "n_alternatives": 1
+    }
+  },
+  "بماذا": {
+    "lex": "ماذا",
+    "root": "م.#",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 1462,
+      "top_alt_count": 725,
+      "n_alternatives": 1
+    }
+  },
+  "فايهما": {
+    "lex": "أي",
+    "root": "ّهم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "3d_poss",
+        "type": "3d_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 626,
+      "top_alt_count": 1514,
+      "n_alternatives": 1
+    }
+  },
+  "ياايها": {
+    "lex": "أيها",
+    "root": "ّه",
+    "pos": "part_voc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 456,
+      "top_alt_count": 5183,
+      "n_alternatives": 1
+    }
+  },
+  "فتارة": {
+    "lex": "تارة",
+    "root": "ترة",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 37,
+      "top_alt_count": 1597,
+      "n_alternatives": 1
+    }
+  },
+  "فمنك": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 88,
+      "top_alt_count": 196,
+      "n_alternatives": 2
+    }
+  },
+  "ومنا": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 113,
+      "top_alt_count": 3277,
+      "n_alternatives": 1
+    }
+  },
+  "ولهن": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 149,
+      "top_alt_count": 868,
+      "n_alternatives": 2
+    }
+  },
+  "منكن": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكنّ",
+        "type": "2fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 42,
+      "top_alt_count": 2118,
+      "n_alternatives": 1
+    }
+  },
+  "واياكن": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكنّ",
+        "type": "2fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 55,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "واياه": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2137,
+      "top_alt_count": 741,
+      "n_alternatives": 1
+    }
+  },
+  "هولاء": {
+    "lex": "هذا",
+    "root": "هل",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 562,
+      "top_alt_count": 43,
+      "n_alternatives": 1
+    }
+  },
+  "ومعهن": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 73,
+      "top_alt_count": 1,
+      "n_alternatives": 2
+    }
+  },
+  "انتما": {
+    "lex": "أنتما",
+    "root": "#.ن",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 38,
+      "top_alt_count": 1970,
+      "n_alternatives": 1
+    }
+  },
+  "ففيم": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ma_interrog",
+        "type": "ma_interrog"
+      }
+    ],
+    "_source": {
+      "npO_count": 705,
+      "top_alt_count": 344,
+      "n_alternatives": 1
+    }
+  },
+  "فايهم": {
+    "lex": "أي",
+    "root": "ّهم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "3mp_poss",
+        "type": "3mp_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 135,
+      "top_alt_count": 393,
+      "n_alternatives": 1
+    }
+  },
+  "فـ": {
+    "lex": "ف",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1228,
+      "top_alt_count": 1760,
+      "n_alternatives": 1
+    }
+  },
+  "ومنك": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 287,
+      "top_alt_count": 1506,
+      "n_alternatives": 1
+    }
+  },
+  "وكانما": {
+    "lex": "كأنما",
+    "root": "ك.#.ن",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 2044,
+      "top_alt_count": 112,
+      "n_alternatives": 1
+    }
+  },
+  "فالذين": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 471,
+      "top_alt_count": 1310,
+      "n_alternatives": 1
+    }
+  },
+  "فلهذا": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 66,
+      "top_alt_count": 14057,
+      "n_alternatives": 1
+    }
+  },
+  "فية": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 27,
+      "top_alt_count": 204,
+      "n_alternatives": 1
+    }
+  },
+  "ـش": {
+    "lex": "ش",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 20,
+      "n_alternatives": 1
+    }
+  },
+  "وتجاه": {
+    "lex": "تجاه",
+    "root": "تجه",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 93,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "فوا": {
+    "lex": "وا",
+    "root": null,
+    "pos": "interj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 538,
+      "top_alt_count": 23,
+      "n_alternatives": 1
+    }
+  },
+  "ليتها": {
+    "lex": "ليت",
+    "root": "ل.#.ت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 13,
+      "top_alt_count": 477,
+      "n_alternatives": 4
+    }
+  },
+  "ولكنكم": {
+    "lex": "لكن",
+    "root": "ل.ك.ن",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 864,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ـل": {
+    "lex": "ل",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 67,
+      "top_alt_count": 119,
+      "n_alternatives": 1
+    }
+  },
+  "ـع": {
+    "lex": "ع",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 13,
+      "top_alt_count": 29,
+      "n_alternatives": 1
+    }
+  },
+  "وهلا": {
+    "lex": "هلا",
+    "root": "هلّ",
+    "pos": "part_interrog",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 595,
+      "top_alt_count": 591,
+      "n_alternatives": 3
+    }
+  },
+  "ـد": {
+    "lex": "د",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 50,
+      "top_alt_count": 119,
+      "n_alternatives": 1
+    }
+  },
+  "فبما": {
+    "lex": "ما",
+    "root": "بم",
+    "pos": "part_interrog",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 202,
+      "top_alt_count": 2219,
+      "n_alternatives": 2
+    }
+  },
+  "بانها": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 9163,
+      "n_alternatives": 1
+    }
+  },
+  "ياليته": {
+    "lex": "ليت",
+    "root": "لت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 13,
+      "top_alt_count": 9,
+      "n_alternatives": 1
+    }
+  },
+  "فمما": {
+    "lex": "مما",
+    "root": "ممّ",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 2288,
+      "top_alt_count": 274,
+      "n_alternatives": 2
+    }
+  },
+  "اللذان": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 4031,
+      "n_alternatives": 1
+    }
+  },
+  "طالما": {
+    "lex": "طالما",
+    "root": "ط.#.ل",
+    "pos": "conj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 784,
+      "top_alt_count": 673,
+      "n_alternatives": 1
+    }
+  },
+  "ـه": {
+    "lex": "ه",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 101,
+      "top_alt_count": 210,
+      "n_alternatives": 1
+    }
+  },
+  "فمنكم": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 329,
+      "top_alt_count": 320,
+      "n_alternatives": 1
+    }
+  },
+  "ـن": {
+    "lex": "ن",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 89,
+      "top_alt_count": 182,
+      "n_alternatives": 1
+    }
+  },
+  "ـك": {
+    "lex": "ك",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 52,
+      "top_alt_count": 94,
+      "n_alternatives": 1
+    }
+  },
+  "وفيم": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ma_interrog",
+        "type": "ma_interrog"
+      }
+    ],
+    "_source": {
+      "npO_count": 449,
+      "top_alt_count": 127,
+      "n_alternatives": 2
+    }
+  },
+  "ـت": {
+    "lex": "ت",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 87,
+      "top_alt_count": 94,
+      "n_alternatives": 1
+    }
+  },
+  "بانة": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 501,
+      "top_alt_count": 181,
+      "n_alternatives": 5
+    }
+  },
+  "بانني": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 436,
+      "n_alternatives": 1
+    }
+  },
+  "لكيما": {
+    "lex": "كيما",
+    "root": "ك.#",
+    "pos": "conj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 194,
+      "top_alt_count": 253,
+      "n_alternatives": 1
+    }
+  },
+  "فتبا": {
+    "lex": "تبا",
+    "root": "ت.ب.ب",
+    "pos": "adv",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC",
+      "ACC"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 40,
+      "top_alt_count": 46,
+      "n_alternatives": 2
+    }
+  },
+  "فليتني": {
+    "lex": "ليت",
+    "root": "ل.#.ت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 105,
+      "top_alt_count": 59,
+      "n_alternatives": 2
+    }
+  },
+  "فاذ": {
+    "lex": "إذ",
+    "root": "#.ذ",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 367,
+      "top_alt_count": 2402,
+      "n_alternatives": 1
+    }
+  },
+  "فايهن": {
+    "lex": "أي",
+    "root": "ّهنّ",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "3fp_poss",
+        "type": "3fp_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 26,
+      "n_alternatives": 1
+    }
+  },
+  "ـط": {
+    "lex": "ط",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 13,
+      "top_alt_count": 10,
+      "n_alternatives": 1
+    }
+  },
+  "ـة": {
+    "lex": "ه",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 27,
+      "top_alt_count": 23,
+      "n_alternatives": 1
+    }
+  },
+  "فمم": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ma_interrog",
+        "type": "ma_interrog"
+      }
+    ],
+    "_source": {
+      "npO_count": 143,
+      "top_alt_count": 46,
+      "n_alternatives": 1
+    }
+  },
+  "حواليها": {
+    "lex": "حوالى",
+    "root": "حل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 466,
+      "top_alt_count": 67,
+      "n_alternatives": 1
+    }
+  },
+  "مسانهة": {
+    "lex": "مسانهة",
+    "root": "مسنهة",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 27,
+      "top_alt_count": 60,
+      "n_alternatives": 1
+    }
+  },
+  "ـف": {
+    "lex": "ف",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 9,
+      "top_alt_count": 45,
+      "n_alternatives": 1
+    }
+  },
+  "ـق": {
+    "lex": "ق",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 21,
+      "top_alt_count": 44,
+      "n_alternatives": 1
+    }
+  },
+  "وايهم": {
+    "lex": "أي",
+    "root": "ّهم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "3mp_poss",
+        "type": "3mp_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 171,
+      "top_alt_count": 174,
+      "n_alternatives": 1
+    }
+  },
+  "بانكم": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 7,
+      "top_alt_count": 375,
+      "n_alternatives": 1
+    }
+  },
+  "بالا": {
+    "lex": "ألا",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "lA_neg",
+        "type": "lA_neg"
+      }
+    ],
+    "_source": {
+      "npO_count": 132,
+      "top_alt_count": 1347,
+      "n_alternatives": 3
+    }
+  },
+  "علهم": {
+    "lex": "عل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 108,
+      "top_alt_count": 101,
+      "n_alternatives": 1
+    }
+  },
+  "وبمن": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 1439,
+      "n_alternatives": 1
+    }
+  },
+  "وفيك": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 7,
+      "top_alt_count": 243,
+      "n_alternatives": 5
+    }
+  },
+  "ـر": {
+    "lex": "ر",
+    "root": "NTWS",
+    "pos": "punc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 115,
+      "top_alt_count": 221,
+      "n_alternatives": 1
+    }
+  },
+  "ـ": {
+    "lex": "ـ",
+    "root": null,
+    "pos": "punc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 290,
+      "top_alt_count": 9858,
+      "n_alternatives": 4
+    }
+  },
+  "فلنا": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 336,
+      "top_alt_count": 283,
+      "n_alternatives": 6
+    }
+  },
+  "فبمن": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 227,
+      "n_alternatives": 1
+    }
+  },
+  "وعنهما": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـهما",
+        "type": "3d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 18,
+      "top_alt_count": 189,
+      "n_alternatives": 1
+    }
+  },
+  "لة": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 148,
+      "top_alt_count": 1882,
+      "n_alternatives": 1
+    }
+  },
+  "فبهذه": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 267,
+      "n_alternatives": 1
+    }
+  },
+  "وطالما": {
+    "lex": "طالما",
+    "root": "ط.#.ل",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 16,
+      "top_alt_count": 571,
+      "n_alternatives": 1
+    }
+  },
+  "فياليت": {
+    "lex": "ليت",
+    "root": "لت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 159,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "فانكما": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "2d_pron",
+        "type": "2d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 20,
+      "top_alt_count": 189,
+      "n_alternatives": 2
+    }
+  },
+  "فلمن": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 92,
+      "top_alt_count": 788,
+      "n_alternatives": 3
+    }
+  },
+  "ووا": {
+    "lex": "وا",
+    "root": null,
+    "pos": "interj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 168,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "وهذي": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 391,
+      "n_alternatives": 1
+    }
+  },
+  "فلذاك": {
+    "lex": "ذاك",
+    "root": "ذ.#",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 190,
+      "n_alternatives": 2
+    }
+  },
+  "اليكن": {
+    "lex": "إلى",
+    "root": "#.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكنّ",
+        "type": "2fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 87,
+      "n_alternatives": 1
+    }
+  },
+  "ليتهم": {
+    "lex": "ليت",
+    "root": "ل.#.ت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 8,
+      "top_alt_count": 136,
+      "n_alternatives": 2
+    }
+  },
+  "فاياكما": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "2d_pron",
+        "type": "2d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 8,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "واياكما": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "2d_pron",
+        "type": "2d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 78,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "فلربما": {
+    "lex": "ربما",
+    "root": "لربّم",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 32,
+      "top_alt_count": 213,
+      "n_alternatives": 1
+    }
+  },
+  "بة": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 8,
+      "top_alt_count": 447,
+      "n_alternatives": 1
+    }
+  },
+  "فاللواتي": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "PL",
+      "FEM"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 14,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ففينا": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 83,
+      "top_alt_count": 12,
+      "n_alternatives": 1
+    }
+  },
+  "فلهذه": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 35,
+      "top_alt_count": 409,
+      "n_alternatives": 1
+    }
+  },
+  "فيهـ": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ومنذ": {
+    "lex": "منذ",
+    "root": "NTWS",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 73,
+      "top_alt_count": 548,
+      "n_alternatives": 1
+    }
+  },
+  "جـ": {
+    "lex": "ج",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 848,
+      "top_alt_count": 2030,
+      "n_alternatives": 1
+    }
+  },
+  "ـلها": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ايهن": {
+    "lex": "أي",
+    "root": "ّهنّ",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "3fp_poss",
+        "type": "3fp_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 134,
+      "top_alt_count": 21,
+      "n_alternatives": 1
+    }
+  },
+  "ومعهم": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3154,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "فلطالما": {
+    "lex": "طالما",
+    "root": "ط.#.ل",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "la_emph"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 99,
+      "n_alternatives": 1
+    }
+  },
+  "مث": {
+    "lex": "مث",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 169,
+      "top_alt_count": 17,
+      "n_alternatives": 1
+    }
+  },
+  "فانكن": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـكنّ",
+        "type": "2fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 55,
+      "top_alt_count": 111,
+      "n_alternatives": 3
+    }
+  },
+  "فيكن": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكنّ",
+        "type": "2fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 7,
+      "top_alt_count": 168,
+      "n_alternatives": 3
+    }
+  },
+  "وهذين": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 12,
+      "top_alt_count": 115,
+      "n_alternatives": 2
+    }
+  },
+  "ومم": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ma_interrog",
+        "type": "ma_interrog"
+      }
+    ],
+    "_source": {
+      "npO_count": 329,
+      "top_alt_count": 10,
+      "n_alternatives": 1
+    }
+  },
+  "ولاولئك": {
+    "lex": "أولائك",
+    "root": "NTWS",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 22,
+      "n_alternatives": 1
+    }
+  },
+  "فحيثما": {
+    "lex": "حيثما",
+    "root": "ح.#.ث",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 70,
+      "top_alt_count": 193,
+      "n_alternatives": 1
+    }
+  },
+  "وايكم": {
+    "lex": "أي",
+    "root": "ّكم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "2mp_poss",
+        "type": "2mp_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 394,
+      "n_alternatives": 2
+    }
+  },
+  "ريثما": {
+    "lex": "ريثما",
+    "root": "ر.#.ث",
+    "pos": "conj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 433,
+      "n_alternatives": 1
+    }
+  },
+  "بتيك": {
+    "lex": "ذاك",
+    "root": "ت.#.ك",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 10,
+      "n_alternatives": 2
+    }
+  },
+  "فانتما": {
+    "lex": "أنتما",
+    "root": "#.ن",
+    "pos": "pron",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 69,
+      "top_alt_count": 339,
+      "n_alternatives": 1
+    }
+  },
+  "فهاتان": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 79,
+      "top_alt_count": 316,
+      "n_alternatives": 1
+    }
+  },
+  "تيك": {
+    "lex": "ذاك",
+    "root": "ت.#.ك",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM",
+      "GEN"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 211,
+      "top_alt_count": 141,
+      "n_alternatives": 2
+    }
+  },
+  "فمذ": {
+    "lex": "مذ",
+    "root": "م.ذ",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 208,
+      "top_alt_count": 32,
+      "n_alternatives": 1
+    }
+  },
+  "فبه": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 220,
+      "top_alt_count": 1076,
+      "n_alternatives": 1
+    }
+  },
+  "وعنا": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 174,
+      "top_alt_count": 19,
+      "n_alternatives": 3
+    }
+  },
+  "لربما": {
+    "lex": "ربما",
+    "root": "لربّم",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 169,
+      "top_alt_count": 37,
+      "n_alternatives": 1
+    }
+  },
+  "تانك": {
+    "lex": "ذاك",
+    "root": "ت.#.ن",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 160,
+      "top_alt_count": 11,
+      "n_alternatives": 2
+    }
+  },
+  "فليته": {
+    "lex": "ليت",
+    "root": "ل.#.ت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 7,
+      "top_alt_count": 128,
+      "n_alternatives": 3
+    }
+  },
+  "وبهن": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 82,
+      "n_alternatives": 1
+    }
+  },
+  "وعنكم": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 48,
+      "top_alt_count": 80,
+      "n_alternatives": 1
+    }
+  },
+  "فبماذا": {
+    "lex": "ماذا",
+    "root": "م.#",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 50,
+      "top_alt_count": 335,
+      "n_alternatives": 1
+    }
+  },
+  "ـج": {
+    "lex": "ج",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "كاولئك": {
+    "lex": "أولائك",
+    "root": "NTWS",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "كـ",
+        "type": "ka_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 40,
+      "n_alternatives": 1
+    }
+  },
+  "فايها": {
+    "lex": "أي",
+    "root": "ّه",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "3fs_poss",
+        "type": "3fs_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 26,
+      "top_alt_count": 186,
+      "n_alternatives": 2
+    }
+  },
+  "اياهن": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 372,
+      "n_alternatives": 1
+    }
+  },
+  "ـي": {
+    "lex": "ي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 29,
+      "top_alt_count": 47,
+      "n_alternatives": 1
+    }
+  },
+  "سـ": {
+    "lex": "س",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 10,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "ـلا": {
+    "lex": "لا",
+    "root": "ل.#",
+    "pos": "part_neg",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 8,
+      "n_alternatives": 1
+    }
+  },
+  "وتبا": {
+    "lex": "تبا",
+    "root": "ت.ب.ب",
+    "pos": "adv",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC",
+      "ACC"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 79,
+      "n_alternatives": 2
+    }
+  },
+  "قـ": {
+    "lex": "ق",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 10,
+      "top_alt_count": 7,
+      "n_alternatives": 1
+    }
+  },
+  "مـ": {
+    "lex": "م",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 49,
+      "top_alt_count": 8,
+      "n_alternatives": 1
+    }
+  },
+  "يـ": {
+    "lex": "ي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 21,
+      "top_alt_count": 6,
+      "n_alternatives": 1
+    }
+  },
+  "لايهما": {
+    "lex": "أي",
+    "root": "ّهم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "3d_poss",
+        "type": "3d_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 194,
+      "n_alternatives": 1
+    }
+  },
+  "وبم": {
+    "lex": "ما",
+    "root": "م.#",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 293,
+      "top_alt_count": 485,
+      "n_alternatives": 2
+    }
+  },
+  "ـا": {
+    "lex": "أ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 23,
+      "top_alt_count": 41,
+      "n_alternatives": 1
+    }
+  },
+  "وايهما": {
+    "lex": "أي",
+    "root": "ّهم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "3d_poss",
+        "type": "3d_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 1486,
+      "n_alternatives": 1
+    }
+  },
+  "ـظ": {
+    "lex": "ظ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 9,
+      "n_alternatives": 1
+    }
+  },
+  "ففيك": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 64,
+      "top_alt_count": 13,
+      "n_alternatives": 1
+    }
+  },
+  "لـ": {
+    "lex": "ل",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1028,
+      "top_alt_count": 1507,
+      "n_alternatives": 1
+    }
+  },
+  "فبي": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 379,
+      "top_alt_count": 149,
+      "n_alternatives": 1
+    }
+  },
+  "فاياه": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 111,
+      "top_alt_count": 114,
+      "n_alternatives": 1
+    }
+  },
+  "اتش": {
+    "lex": "اتش",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 112,
+      "top_alt_count": 19,
+      "n_alternatives": 1
+    }
+  },
+  "وايكما": {
+    "lex": "أي",
+    "root": "ّكم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 9,
+      "top_alt_count": 62,
+      "n_alternatives": 1
+    }
+  },
+  "ياليتني": {
+    "lex": "ليت",
+    "root": "لت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 89,
+      "top_alt_count": 247,
+      "n_alternatives": 1
+    }
+  },
+  "ومالم": {
+    "lex": "مالم",
+    "root": "ملم",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 139,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "تي": {
+    "lex": "تي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 333,
+      "top_alt_count": 488,
+      "n_alternatives": 1
+    }
+  },
+  "ومذ": {
+    "lex": "مذ",
+    "root": "م.ذ",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 256,
+      "top_alt_count": 300,
+      "n_alternatives": 1
+    }
+  },
+  "لسي": {
+    "lex": "سي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 37,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "السي": {
+    "lex": "سي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [
+      "DEF"
+    ],
+    "clitics": [
+      {
+        "display": "الـ",
+        "type": "Al_det"
+      }
+    ],
+    "_source": {
+      "npO_count": 282,
+      "top_alt_count": 87,
+      "n_alternatives": 1
+    }
+  },
+  "ولايهما": {
+    "lex": "أي",
+    "root": "ّهم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "3d_poss",
+        "type": "3d_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 6,
+      "n_alternatives": 1
+    }
+  },
+  "تاك": {
+    "lex": "ذاك",
+    "root": "ذ.#",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 96,
+      "top_alt_count": 19,
+      "n_alternatives": 1
+    }
+  },
+  "بغدا": {
+    "lex": "غدا",
+    "root": "غد",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 17,
+      "top_alt_count": 13,
+      "n_alternatives": 1
+    }
+  },
+  "وسي": {
+    "lex": "سي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 174,
+      "top_alt_count": 27,
+      "n_alternatives": 1
+    }
+  },
+  "علهما": {
+    "lex": "عل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهما",
+        "type": "3d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 12,
+      "top_alt_count": 25,
+      "n_alternatives": 1
+    }
+  },
+  "اوة": {
+    "lex": "أوه",
+    "root": "#.#.ه",
+    "pos": "interj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 68,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "فتوا": {
+    "lex": "توا",
+    "root": "ت.#.#",
+    "pos": "adv",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC",
+      "ACC"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 18,
+      "n_alternatives": 2
+    }
+  },
+  "والسي": {
+    "lex": "سي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [
+      "DEF"
+    ],
+    "clitics": [
+      {
+        "display": "الـ",
+        "type": "Al_det"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 81,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "لةن": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "وتوا": {
+    "lex": "توا",
+    "root": "ت.#.#",
+    "pos": "adv",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC",
+      "ACC"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "علكم": {
+    "lex": "عل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 82,
+      "top_alt_count": 20,
+      "n_alternatives": 1
+    }
+  },
+  "علها": {
+    "lex": "عل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 161,
+      "top_alt_count": 169,
+      "n_alternatives": 1
+    }
+  },
+  "وايتكن": {
+    "lex": "أي",
+    "root": "ّتكنّ",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 8,
+      "top_alt_count": 4,
+      "n_alternatives": 2
+    }
+  },
+  "ماعدا": {
+    "lex": "عدا",
+    "root": "ع.د.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 55,
+      "top_alt_count": 75,
+      "n_alternatives": 1
+    }
+  },
+  "فبهذين": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "ACC"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 15,
+      "n_alternatives": 2
+    }
+  },
+  "فلهذين": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 10,
+      "top_alt_count": 24,
+      "n_alternatives": 2
+    }
+  },
+  "وبالذين": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 51,
+      "n_alternatives": 1
+    }
+  },
+  "اياكن": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكنّ",
+        "type": "2fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 30,
+      "top_alt_count": 21,
+      "n_alternatives": 1
+    }
+  },
+  "واللذين": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC",
+      "ACC"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 40,
+      "top_alt_count": 38,
+      "n_alternatives": 2
+    }
+  },
+  "فانة": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 62,
+      "n_alternatives": 4
+    }
+  },
+  "واللواتي": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "PL",
+      "FEM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 8,
+      "top_alt_count": 130,
+      "n_alternatives": 1
+    }
+  },
+  "ـب": {
+    "lex": "ب",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 53,
+      "top_alt_count": 107,
+      "n_alternatives": 1
+    }
+  },
+  "الخـ": {
+    "lex": "ألخ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ولعلة": {
+    "lex": "لعل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "la_emph"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 12,
+      "top_alt_count": 25,
+      "n_alternatives": 5
+    }
+  },
+  "ـم": {
+    "lex": "م",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 48,
+      "top_alt_count": 100,
+      "n_alternatives": 1
+    }
+  },
+  "لهولاء": {
+    "lex": "هذا",
+    "root": "هل",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 28,
+      "top_alt_count": 18,
+      "n_alternatives": 1
+    }
+  },
+  "وانة": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 60,
+      "n_alternatives": 6
+    }
+  },
+  "وتاك": {
+    "lex": "ذاك",
+    "root": "ذ.#",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 26,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "ومعا": {
+    "lex": "معا",
+    "root": "مع",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 9,
+      "top_alt_count": 84,
+      "n_alternatives": 1
+    }
+  },
+  "فالتي": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 78,
+      "top_alt_count": 589,
+      "n_alternatives": 3
+    }
+  },
+  "حواليهم": {
+    "lex": "حوالى",
+    "root": "حل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 49,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "فمنذ": {
+    "lex": "منذ",
+    "root": "NTWS",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 108,
+      "n_alternatives": 1
+    }
+  },
+  "فمعنا": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـنا",
+        "type": "1p_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 46,
+      "top_alt_count": 34,
+      "n_alternatives": 1
+    }
+  },
+  "ولكيلا": {
+    "lex": "كيلا",
+    "root": "لكل",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 42,
+      "n_alternatives": 1
+    }
+  },
+  "وعليكما": {
+    "lex": "على",
+    "root": "ع.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "2d_pron",
+        "type": "2d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 64,
+      "n_alternatives": 5
+    }
+  },
+  "فرويدا": {
+    "lex": "رويد",
+    "root": "ر.#.د",
+    "pos": "adv",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC",
+      "ACC"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 15,
+      "top_alt_count": 38,
+      "n_alternatives": 1
+    }
+  },
+  "ومنة": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 342,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "وبحيث": {
+    "lex": "حيث",
+    "root": "ح.#.ث",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 150,
+      "top_alt_count": 13,
+      "n_alternatives": 1
+    }
+  },
+  "تاره": {
+    "lex": "تارة",
+    "root": "ترة",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 15,
+      "top_alt_count": 48,
+      "n_alternatives": 1
+    }
+  },
+  "حاشاك": {
+    "lex": "حاشى",
+    "root": "ح.ش.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 310,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "فعنكن": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـكنّ",
+        "type": "2fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 63,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "وايهن": {
+    "lex": "أي",
+    "root": "ّهنّ",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "3fp_poss",
+        "type": "3fp_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 13,
+      "top_alt_count": 7,
+      "n_alternatives": 1
+    }
+  },
+  "وتيك": {
+    "lex": "ذاك",
+    "root": "ت.#.ك",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 58,
+      "top_alt_count": 18,
+      "n_alternatives": 1
+    }
+  },
+  "وللذين": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 108,
+      "top_alt_count": 110,
+      "n_alternatives": 1
+    }
+  },
+  "ـــة": {
+    "lex": "ه",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "بانهن": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 120,
+      "n_alternatives": 1
+    }
+  },
+  "فاياهم": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 9,
+      "n_alternatives": 1
+    }
+  },
+  "ــر": {
+    "lex": "ر",
+    "root": "NTWS",
+    "pos": "punc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 15,
+      "n_alternatives": 1
+    }
+  },
+  "ــن": {
+    "lex": "ن",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 7,
+      "n_alternatives": 1
+    }
+  },
+  "وهاتين": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "FEM",
+      "ACC"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 87,
+      "n_alternatives": 1
+    }
+  },
+  "كـ": {
+    "lex": "ك",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 896,
+      "top_alt_count": 1227,
+      "n_alternatives": 1
+    }
+  },
+  "بـالذين": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ــك": {
+    "lex": "ك",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "الوحد": {
+    "lex": "وحد",
+    "root": "#.ح.د",
+    "pos": "adv",
+    "features": [
+      "DEF",
+      "SG",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "الـ",
+        "type": "Al_det"
+      }
+    ],
+    "_source": {
+      "npO_count": 9,
+      "top_alt_count": 100,
+      "n_alternatives": 4
+    }
+  },
+  "اياكما": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "2d_pron",
+        "type": "2d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 51,
+      "top_alt_count": 36,
+      "n_alternatives": 1
+    }
+  },
+  "بانكما": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "2d_pron",
+        "type": "2d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 18,
+      "n_alternatives": 1
+    }
+  },
+  "فاياها": {
+    "lex": "إيا",
+    "root": "#.#.#",
+    "pos": "part",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 7,
+      "top_alt_count": 11,
+      "n_alternatives": 1
+    }
+  },
+  "ولكليهما": {
+    "lex": "كلا",
+    "root": "ك.ل.#",
+    "pos": "noun_quant",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـهما",
+        "type": "3d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 27,
+      "n_alternatives": 3
+    }
+  },
+  "ـض": {
+    "lex": "ض",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 7,
+      "top_alt_count": 37,
+      "n_alternatives": 1
+    }
+  },
+  "فمعكم": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 29,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "فلهؤلاء": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 35,
+      "n_alternatives": 1
+    }
+  },
+  "ولكلتا": {
+    "lex": "كلا",
+    "root": "ك.ل.#",
+    "pos": "noun_quant",
+    "features": [
+      "INDEF",
+      "DU",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 7,
+      "n_alternatives": 1
+    }
+  },
+  "ياليتها": {
+    "lex": "ليت",
+    "root": "لت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 46,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "بهذي": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 60,
+      "n_alternatives": 1
+    }
+  },
+  "ـــر": {
+    "lex": "ر",
+    "root": "NTWS",
+    "pos": "punc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 6,
+      "n_alternatives": 1
+    }
+  },
+  "ياايتها": {
+    "lex": "أيتها",
+    "root": "ّته",
+    "pos": "part_voc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 48,
+      "top_alt_count": 33,
+      "n_alternatives": 1
+    }
+  },
+  "فلئلا": {
+    "lex": "لئلا",
+    "root": "للّ",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 110,
+      "top_alt_count": 93,
+      "n_alternatives": 1
+    }
+  },
+  "لـهن": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "فـاذ": {
+    "lex": "إذ",
+    "root": "#.ذ",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "بـما": {
+    "lex": "ما",
+    "root": "بم",
+    "pos": "part_interrog",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 36,
+      "top_alt_count": 22,
+      "n_alternatives": 1
+    }
+  },
+  "واللتين": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "DU",
+      "FEM",
+      "ACC"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 29,
+      "n_alternatives": 2
+    }
+  },
+  "اللتيا": {
+    "lex": "الذي",
+    "root": "للّتّ",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 117,
+      "top_alt_count": 124,
+      "n_alternatives": 1
+    }
+  },
+  "فخلال": {
+    "lex": "خلال",
+    "root": "خلل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "فمعه": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 105,
+      "n_alternatives": 1
+    }
+  },
+  "علـ": {
+    "lex": "عل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 9,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "ـح": {
+    "lex": "ح",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 12,
+      "top_alt_count": 38,
+      "n_alternatives": 1
+    }
+  },
+  "ـث": {
+    "lex": "ث",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 8,
+      "top_alt_count": 8,
+      "n_alternatives": 1
+    }
+  },
+  "ـس": {
+    "lex": "س",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 29,
+      "top_alt_count": 51,
+      "n_alternatives": 1
+    }
+  },
+  "ـلة": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 15,
+      "n_alternatives": 1
+    }
+  },
+  "ـسي": {
+    "lex": "سي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "باف": {
+    "lex": "إف",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 35,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "عليةا": {
+    "lex": "على",
+    "root": "ع.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "لةا": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 12,
+      "n_alternatives": 1
+    }
+  },
+  "ـو": {
+    "lex": "و",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 14,
+      "top_alt_count": 26,
+      "n_alternatives": 1
+    }
+  },
+  "فياليتني": {
+    "lex": "ليت",
+    "root": "لت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 27,
+      "top_alt_count": 15,
+      "n_alternatives": 1
+    }
+  },
+  "ولايها": {
+    "lex": "أي",
+    "root": "ّه",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "3fs_poss",
+        "type": "3fs_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "بهولاء": {
+    "lex": "هذا",
+    "root": "هل",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 18,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "وبهاتين": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "FEM",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 10,
+      "top_alt_count": 10,
+      "n_alternatives": 2
+    }
+  },
+  "لتيك": {
+    "lex": "ذاك",
+    "root": "ت.#.ك",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "بانكن": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "ـكنّ",
+        "type": "2fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 6,
+      "n_alternatives": 1
+    }
+  },
+  "فعنك": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 17,
+      "top_alt_count": 6,
+      "n_alternatives": 1
+    }
+  },
+  "وتانك": {
+    "lex": "ذاك",
+    "root": "ت.#.ن",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 58,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "ووحدك": {
+    "lex": "وحد",
+    "root": "#.ح.د",
+    "pos": "adv",
+    "features": [
+      "CNST",
+      "SG",
+      "MASC",
+      "ACC"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "2ms_poss",
+        "type": "2ms_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 6,
+      "n_alternatives": 4
+    }
+  },
+  "فاللذان": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 21,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "وكذلكم": {
+    "lex": "ذلك",
+    "root": "ذ.#",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "كـ",
+        "type": "ka_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 8,
+      "n_alternatives": 2
+    }
+  },
+  "ففيكم": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـكم",
+        "type": "2mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 25,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "علهن": {
+    "lex": "عل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "وهولاء": {
+    "lex": "هذا",
+    "root": "هل",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 45,
+      "top_alt_count": 43,
+      "n_alternatives": 1
+    }
+  },
+  "ولطالما": {
+    "lex": "طالما",
+    "root": "ط.#.ل",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "la_emph"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 192,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "لكنهن": {
+    "lex": "لكن",
+    "root": "ل.ك.ن",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 30,
+      "n_alternatives": 2
+    }
+  },
+  "فلكيما": {
+    "lex": "كيما",
+    "root": "ك.#",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ولهذين": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "DU",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 51,
+      "top_alt_count": 8,
+      "n_alternatives": 1
+    }
+  },
+  "ـمع": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 8,
+      "n_alternatives": 1
+    }
+  },
+  "وعليكن": {
+    "lex": "على",
+    "root": "ع.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكنّ",
+        "type": "2fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 3,
+      "n_alternatives": 3
+    }
+  },
+  "لعلكن": {
+    "lex": "لعل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "la_emph"
+      },
+      {
+        "display": "ـكنّ",
+        "type": "2fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 11,
+      "top_alt_count": 24,
+      "n_alternatives": 2
+    }
+  },
+  "فهولاء": {
+    "lex": "هذا",
+    "root": "هل",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 42,
+      "top_alt_count": 13,
+      "n_alternatives": 1
+    }
+  },
+  "فلاولئك": {
+    "lex": "أولائك",
+    "root": "NTWS",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "فعنهم": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 20,
+      "top_alt_count": 12,
+      "n_alternatives": 1
+    }
+  },
+  "تـ": {
+    "lex": "ت",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 97,
+      "top_alt_count": 154,
+      "n_alternatives": 1
+    }
+  },
+  "فحينما": {
+    "lex": "حين",
+    "root": "ح.#.ن",
+    "pos": "conj",
+    "features": [
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 29,
+      "n_alternatives": 1
+    }
+  },
+  "فمثلما": {
+    "lex": "مثل",
+    "root": "م.ث.ل",
+    "pos": "conj",
+    "features": [
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "فمعهم": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 12,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "وةا": {
+    "lex": "ها",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "وتجاهي": {
+    "lex": "تجاه",
+    "root": "#.ج.ه",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "خـ": {
+    "lex": "خ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 12,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "فياليتها": {
+    "lex": "ليت",
+    "root": "لت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "بسي": {
+    "lex": "سي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 116,
+      "top_alt_count": 22,
+      "n_alternatives": 1
+    }
+  },
+  "تغ": {
+    "lex": "تغ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 62,
+      "top_alt_count": 8,
+      "n_alternatives": 1
+    }
+  },
+  "معـ": {
+    "lex": "مع",
+    "root": "مع",
+    "pos": "prep",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 8,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "بــما": {
+    "lex": "ما",
+    "root": "بم",
+    "pos": "part_interrog",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "وتجاهك": {
+    "lex": "تجاه",
+    "root": "تجه",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـكَ",
+        "type": "2ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 15,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "صـ": {
+    "lex": "ص",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 33,
+      "top_alt_count": 53,
+      "n_alternatives": 1
+    }
+  },
+  "ـفي": {
+    "lex": "في",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "هــ": {
+    "lex": "ه",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ولالا": {
+    "lex": "ألا",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "lA_neg",
+        "type": "lA_neg"
+      }
+    ],
+    "_source": {
+      "npO_count": 22,
+      "top_alt_count": 9,
+      "n_alternatives": 1
+    }
+  },
+  "ــــــ": {
+    "lex": "ــــــ",
+    "root": null,
+    "pos": "punc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 262,
+      "n_alternatives": 2
+    }
+  },
+  "ــ": {
+    "lex": "ــ",
+    "root": null,
+    "pos": "punc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 25423,
+      "top_alt_count": 14140,
+      "n_alternatives": 4
+    }
+  },
+  "طـ": {
+    "lex": "ط",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 284,
+      "top_alt_count": 655,
+      "n_alternatives": 1
+    }
+  },
+  "حـ": {
+    "lex": "ح",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 25,
+      "top_alt_count": 12,
+      "n_alternatives": 1
+    }
+  },
+  "فبة": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 15,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "ببي": {
+    "lex": "بي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 63,
+      "top_alt_count": 6,
+      "n_alternatives": 1
+    }
+  },
+  "فايتكن": {
+    "lex": "أي",
+    "root": "ّتكنّ",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 3,
+      "n_alternatives": 2
+    }
+  },
+  "ومنكما": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "2d_pron",
+        "type": "2d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "واليهن": {
+    "lex": "إلى",
+    "root": "#.ل.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 12,
+      "n_alternatives": 2
+    }
+  },
+  "وتجاهها": {
+    "lex": "تجاه",
+    "root": "تجه",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـها",
+        "type": "3fs_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 8,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "فبحيث": {
+    "lex": "حيث",
+    "root": "ح.#.ث",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 7,
+      "top_alt_count": 9,
+      "n_alternatives": 1
+    }
+  },
+  "بتاك": {
+    "lex": "ذاك",
+    "root": "ذ.#",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM",
+      "NOM"
+    ],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 9,
+      "top_alt_count": 9,
+      "n_alternatives": 1
+    }
+  },
+  "ـص": {
+    "lex": "ص",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "عنـ": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 21,
+      "top_alt_count": 7,
+      "n_alternatives": 1
+    }
+  },
+  "ـبي": {
+    "lex": "بي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 6,
+      "n_alternatives": 1
+    }
+  },
+  "ـبة": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 14,
+      "n_alternatives": 1
+    }
+  },
+  "ـيا": {
+    "lex": "يا",
+    "root": "#.#",
+    "pos": "part_voc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 16,
+      "n_alternatives": 1
+    }
+  },
+  "السيـ": {
+    "lex": "سي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [
+      "DEF"
+    ],
+    "clitics": [
+      {
+        "display": "الـ",
+        "type": "Al_det"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "ـلاف": {
+    "lex": "إف",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "بالسيـ": {
+    "lex": "سي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [
+      "DEF"
+    ],
+    "clitics": [
+      {
+        "display": "الـ",
+        "type": "Al_det"
+      },
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "ـعل": {
+    "lex": "عل",
+    "root": "ع.ل.ل",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ـله": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 8,
+      "top_alt_count": 14,
+      "n_alternatives": 1
+    }
+  },
+  "حواليهما": {
+    "lex": "حوالى",
+    "root": "حل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهما",
+        "type": "3d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 17,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "عـ": {
+    "lex": "ع",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 24,
+      "top_alt_count": 6,
+      "n_alternatives": 1
+    }
+  },
+  "غـ": {
+    "lex": "غ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ووحدي": {
+    "lex": "وحد",
+    "root": "#.ح.د",
+    "pos": "adv",
+    "features": [
+      "CNST",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "1s_poss",
+        "type": "1s_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "وبحيثما": {
+    "lex": "حيثما",
+    "root": "ح.#.ث",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "بحيثما": {
+    "lex": "حيثما",
+    "root": "ح.#.ث",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "فاللاتي": {
+    "lex": "الذي",
+    "root": "#.ل",
+    "pos": "pron_rel",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 9,
+      "n_alternatives": 1
+    }
+  },
+  "ياليتهم": {
+    "lex": "ليت",
+    "root": "لت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهم",
+        "type": "3mp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "وياليتني": {
+    "lex": "ليت",
+    "root": "لت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 12,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "بــه": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "فــي": {
+    "lex": "في",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 25,
+      "top_alt_count": 11,
+      "n_alternatives": 1
+    }
+  },
+  "فيــه": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "فبهن": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 6,
+      "n_alternatives": 1
+    }
+  },
+  "عــن": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 21,
+      "top_alt_count": 16,
+      "n_alternatives": 1
+    }
+  },
+  "فــيه": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "مــما": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "mA_rel",
+        "type": "mA_rel"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "مــمن": {
+    "lex": "من",
+    "root": "م.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "man_rel",
+        "type": "man_rel"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "كـذا": {
+    "lex": "كذا",
+    "root": "NTWS",
+    "pos": "conj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "كايها": {
+    "lex": "أي",
+    "root": "ّه",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "كـ",
+        "type": "ka_prep"
+      },
+      {
+        "display": "3fs_poss",
+        "type": "3fs_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "ولكنكما": {
+    "lex": "لكن",
+    "root": "ل.ك.ن",
+    "pos": "conj",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "2d_pron",
+        "type": "2d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 15,
+      "n_alternatives": 2
+    }
+  },
+  "فيـ": {
+    "lex": "في",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 31,
+      "top_alt_count": 12,
+      "n_alternatives": 1
+    }
+  },
+  "نـ": {
+    "lex": "ن",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ضـ": {
+    "lex": "ض",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ـغ": {
+    "lex": "غ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ـهـ": {
+    "lex": "ه",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ـفـ": {
+    "lex": "ف",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 6,
+      "n_alternatives": 1
+    }
+  },
+  "ـذ": {
+    "lex": "ذ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "ـتـ": {
+    "lex": "ت",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "شـ": {
+    "lex": "ش",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 7,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ـبه": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ـوا": {
+    "lex": "وا",
+    "root": null,
+    "pos": "interj",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ولاولاء": {
+    "lex": "أولاء",
+    "root": "#.ل.#",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "PL",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "وبانني": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "بـ",
+        "type": "bi_prep"
+      },
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـيّ",
+        "type": "1s_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "رويدة": {
+    "lex": "رويد",
+    "root": "ر.#.د",
+    "pos": "adv",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 9,
+      "n_alternatives": 1
+    }
+  },
+  "فتاره": {
+    "lex": "تارة",
+    "root": "ترة",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "فـعن": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ففية": {
+    "lex": "في",
+    "root": "ف.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 6,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ولانة": {
+    "lex": "أن",
+    "root": "#.ن.ن",
+    "pos": "conj_sub",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "وتاره": {
+    "lex": "تارة",
+    "root": "ترة",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 20,
+      "n_alternatives": 1
+    }
+  },
+  "وياايها": {
+    "lex": "أيها",
+    "root": "ّه",
+    "pos": "part_voc",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "فلايهم": {
+    "lex": "أي",
+    "root": "ّهم",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "لـ",
+        "type": "li_prep"
+      },
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "3mp_poss",
+        "type": "3mp_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "كهاته": {
+    "lex": "هذا",
+    "root": "ه",
+    "pos": "pron_dem",
+    "features": [
+      "INDEF",
+      "SG",
+      "FEM"
+    ],
+    "clitics": [
+      {
+        "display": "كـ",
+        "type": "ka_prep"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "وليتهن": {
+    "lex": "ليت",
+    "root": "ل.#.ت",
+    "pos": "verb_pseudo",
+    "features": [],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "خلالهن": {
+    "lex": "خلال",
+    "root": "خلل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـهنّ",
+        "type": "3fp_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 10,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "فعنهما": {
+    "lex": "عن",
+    "root": "ع.ن",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      },
+      {
+        "display": "ـهما",
+        "type": "3d_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "كلغ": {
+    "lex": "كلغ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 6,
+      "n_alternatives": 1
+    }
+  },
+  "ـــب": {
+    "lex": "ب",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "اـ": {
+    "lex": "أ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 8,
+      "n_alternatives": 1
+    }
+  },
+  "بهـ": {
+    "lex": "ب",
+    "root": "ب",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ــــد": {
+    "lex": "د",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "وـ": {
+    "lex": "و",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 9,
+      "top_alt_count": 14,
+      "n_alternatives": 1
+    }
+  },
+  "ـــــر": {
+    "lex": "ر",
+    "root": "NTWS",
+    "pos": "punc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "بيـ": {
+    "lex": "بي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 14,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "فماعدا": {
+    "lex": "عدا",
+    "root": "ع.د.#",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "وبلهة": {
+    "lex": "بله",
+    "root": "ب.ل.ه",
+    "pos": "adv",
+    "features": [
+      "INDEF",
+      "SG",
+      "MASC"
+    ],
+    "clitics": [
+      {
+        "display": "و",
+        "type": "wa_conj"
+      },
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 3,
+      "n_alternatives": 2
+    }
+  },
+  "ياتري": {
+    "lex": "ياترى",
+    "root": "تر",
+    "pos": "adv",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "افـ": {
+    "lex": "إف",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 10,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ـهل": {
+    "lex": "هل",
+    "root": "ه.ل",
+    "pos": "part_interrog",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "كـايها": {
+    "lex": "أي",
+    "root": "ّه",
+    "pos": "pron_interrog",
+    "features": [
+      "INDEF"
+    ],
+    "clitics": [
+      {
+        "display": "كـ",
+        "type": "ka_prep"
+      },
+      {
+        "display": "3fs_poss",
+        "type": "3fs_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "فـمذ": {
+    "lex": "مذ",
+    "root": "م.ذ",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "فـ",
+        "type": "fa_conj"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ـخ": {
+    "lex": "خ",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "مثـ": {
+    "lex": "مث",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ـــن": {
+    "lex": "ن",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 5,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ــه": {
+    "lex": "ه",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 8,
+      "n_alternatives": 1
+    }
+  },
+  "لــه": {
+    "lex": "ل",
+    "root": "ل",
+    "pos": "prep",
+    "features": [],
+    "clitics": [
+      {
+        "display": "ـه",
+        "type": "3ms_pron"
+      }
+    ],
+    "_source": {
+      "npO_count": 10,
+      "top_alt_count": 9,
+      "n_alternatives": 1
+    }
+  },
+  "ــد": {
+    "lex": "د",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 4,
+      "n_alternatives": 1
+    }
+  },
+  "ـــد": {
+    "lex": "د",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 5,
+      "n_alternatives": 1
+    }
+  },
+  "ــث": {
+    "lex": "ث",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "سيـ": {
+    "lex": "سي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ـــي": {
+    "lex": "ي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ــــه": {
+    "lex": "ه",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "ــت": {
+    "lex": "ت",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "ــو": {
+    "lex": "و",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ــب": {
+    "lex": "ب",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "ـــت": {
+    "lex": "ت",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "ـــه": {
+    "lex": "ه",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ــــت": {
+    "lex": "ت",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ـــل": {
+    "lex": "ل",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ـــك": {
+    "lex": "ك",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 4,
+      "top_alt_count": 3,
+      "n_alternatives": 1
+    }
+  },
+  "ــــم": {
+    "lex": "م",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ـــم": {
+    "lex": "م",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 3,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "ــــي": {
+    "lex": "ي",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ـــس": {
+    "lex": "س",
+    "root": "NTWS",
+    "pos": "abbrev",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 2,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "كـانما": {
+    "lex": "كأنما",
+    "root": "ك.#.ن",
+    "pos": "part",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 2,
+      "n_alternatives": 1
+    }
+  },
+  "كـوحدك": {
+    "lex": "وحد",
+    "root": "#.ح.د",
+    "pos": "adv",
+    "features": [
+      "CNST",
+      "SG",
+      "MASC",
+      "GEN"
+    ],
+    "clitics": [
+      {
+        "display": "كـ",
+        "type": "ka_prep"
+      },
+      {
+        "display": "2ms_poss",
+        "type": "2ms_poss"
+      }
+    ],
+    "_source": {
+      "npO_count": 1,
+      "top_alt_count": 1,
+      "n_alternatives": 1
+    }
+  },
+  "ـــــــــــــــــــــــــــــ": {
+    "lex": "ـــــــــــــــــــــــــــــ",
+    "root": null,
+    "pos": "punc",
+    "features": [],
+    "clitics": [],
+    "_source": {
+      "npO_count": 410,
+      "top_alt_count": 142,
+      "n_alternatives": 2
+    }
+  }
+}

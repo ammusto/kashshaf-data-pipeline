@@ -1,0 +1,12 @@
+# Texts and build output stay local; the folders are kept by .gitkeep.
+data/**
+!data/**/
+!data/**/.gitkeep
+metadata/sources/*
+!metadata/sources/.gitkeep
+indexer/target/
+venv/
+__pycache__/
+*.log
+config.toml
+*.class

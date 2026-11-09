@@ -1,0 +1,14 @@
+# Copy this file to config.toml and fill in what you use. Every key is
+# optional, and a command-line argument always wins. Use forward slashes.
+
+[paths]
+# Where raw texts and build output live, and where metadata.xlsx lives.
+# A relative path starts at the repository root.
+data = "data"
+metadata = "metadata"
+
+[sources]
+# Installed applications that the extractors read. Leave a line blank if you
+# do not have that application.
+shamela = ""    # for example C:/shamela4
+ahlbayt = ""    # for example C:/ABLibrary/backend

@@ -1,0 +1,16 @@
+# Python 3.11. Install torch first, with the CUDA build that matches your GPU:
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+# then: pip install -r requirements.txt
+# then the CAMeL Tools data:
+#   camel_data -i morphology-db-msa-r13
+#   camel_data -i disambig-bert-unfactored-msa
+camel-tools==1.5.6
+torch==2.5.1
+transformers==4.29.2
+numpy==1.26.4
+pandas==2.0.2
+openpyxl==3.1.5
+orjson==3.11.5
+zstandard==0.25.0
+tqdm==4.65.0
+pytest==7.4.0

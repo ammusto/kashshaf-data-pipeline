@@ -1,0 +1,37 @@
+[package]
+name = "kashshaf-indexer"
+version = "0.2.0"
+edition = "2021"
+description = "Tantivy indexer for Kashshaf Arabic text corpus"
+
+[lib]
+name = "kashshaf_indexer"
+path = "src/lib.rs"
+
+[[bin]]
+name = "kashshaf-indexer"
+path = "src/main.rs"
+
+[[bin]]
+name = "check_order"
+path = "src/bin/check_order.rs"
+
+[[bin]]
+name = "kashshaf-boundary"
+path = "src/bin/boundary.rs"
+
+[dependencies]
+# Must match the app (src-tauri) and API so the index format and the
+# zstd doc store are readable by every consumer.
+tantivy = { version = "0.25", features = ["zstd-compression"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+indicatif = "0.17"
+anyhow = "1.0"
+# Compound mode reads token ids from corpus.db (both blob encodings)
+rusqlite = { version = "0.32", features = ["bundled"] }
+zstd = "0.13"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
